@@ -1,0 +1,110 @@
+html{
+    background-color: rgb(110, 158, 110);
+}
+
+body{
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+.container{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+header{
+    padding-top: 20px;
+    color: rgb(45, 128, 45);
+}
+
+header h1{
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p{
+    margin:0;
+}
+
+.content-area{
+    border-top: 3px solid rgb(218, 230, 213);
+    border-bottom: 3px solid rgb(218, 230, 213);
+}
+
+.main-area{
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    width:34%;
+    float:left;
+    background-color: rgb(218, 230, 213);
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+}
+
+footer{
+    text-align: center;
+    font-size: 85%;
+    color: grey;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fix{
+    clear:both;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+/* Site navigation*/
+.site-nav{
+    margin-top: 20px;
+}
+
+.site-nav ul{
+    margin:0;
+    padding:0;
+}
+
+.site-nav li{
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+}
+
+.site-nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(218, 230, 213);
+    padding: 10px 20px;
+    border: 3px solid rgb(218, 230, 213);
+    border-bottom: none;
+}
+
+.site-nav a:hover{
+    background-color: rgb(218, 230, 213);
+}
+/*End site navigation*/

@@ -1,0 +1,24 @@
+h1{
+    color: orange;
+    text-align: center;
+}
+
+header p{
+    color:hotpink;
+}
+
+header p span{
+    color: gold;
+}
+
+p{
+    color: rgb(30, 161, 30);
+}
+
+.highlight{
+    background-color: indianred;
+}
+
+footer .highlight{
+    background-color: lightgrey;
+}

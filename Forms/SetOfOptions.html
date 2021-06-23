@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <label for="favoriteColor">What is your favorite color?</label>
+    <select id="favoriteColor" name="favoriteColor">
+        <option value="colorRed">Red</option>
+        <option value="colorOrange">Orange</option>
+        <option value="colorYellow">Yellow</option>
+    </select>
+
+    <fieldset>
+        <legend>What is your favorite meal?</legend>
+        <input value="meal1" type="radio" name="favoriteMeal" id="breakfast">
+        <label for="breakfast">Breakfast</label>
+        <input value="meal2" type="radio" name="favoriteMeal" id="brunch">
+        <label for="brunch">Brunch</label>
+        <input value="meal3" type="radio" name="favoriteMeal" id="lunch">
+        <label for="lunch">Lunch</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Which meals do you enjoy? (check all that apply)</legend>
+        <input value="meal1" type="checkbox" name="favoriteMeal" id="breakfast">
+        <label for="breakfast">Breakfast</label>
+        <input value="meal2" type="checkbox" name="favoriteMeal" id="brunch">
+        <label for="brunch">Brunch</label>
+        <input value="meal3" type="checkbox" name="favoriteMeal" id="lunch">
+        <label for="lunch">Lunch</label>
+    </fieldset>
+
+</body>
+</html>
